@@ -1,15 +1,13 @@
-.card {
-    width: 100%;
-  }
-  .cardP {
+.cardP {
     display: flex;
-    flex-direction:row;
     width: 95%;
     margin: auto;
+}
+.cardI {
+    width: 100%;
   }
-  .cardI {
-    width: 300px;
-  }
-  .cardI h2 {
+
+
+.cardI h2 {
     text-align: center;
   }
