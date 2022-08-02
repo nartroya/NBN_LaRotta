@@ -2,12 +2,14 @@
 import './App.css';
 import NavBar from './components/NavBar/NavBar';
 import ItemListContainer from './container/ItemListContainer';
+import ItemDetailContainer from './container/ItemDetailContainer';
 
 function App() {
   return (
     <>
       <NavBar/>
       <ItemListContainer greeting={"Ejemplo títutlo para un ítem"}/>
+      <ItemDetailContainer />
     </>
 
     /*<>
