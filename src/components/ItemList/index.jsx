@@ -9,6 +9,6 @@ const ItemList = ({service}) => {
         })}
     </div>
   )
-}
+} 
 
 export default ItemList

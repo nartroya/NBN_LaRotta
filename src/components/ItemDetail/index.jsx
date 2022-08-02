@@ -3,7 +3,7 @@ import React from 'react'
 const ItemDetail = ({ pokemonDetail }) => {
     if (pokemonDetail !== null) {
         return (
-            <div>
+            <div> 
                 <img src={pokemonDetail.sprites.front_default} alt="portada-pokemon" />
                 <p>{pokemonDetail.name}</p>
             </div>

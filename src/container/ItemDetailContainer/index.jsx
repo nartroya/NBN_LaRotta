@@ -5,7 +5,7 @@ const ItemDetailContainer = () => {
 
     const [pokemonDetail, setPokemonDetail] = useState(null);
 
-    useEffect(() => {
+    useEffect(() => { 
         const getPokemonDetail = async () => {
             try {
                 const response = await fetch('https://pokeapi.co/api/v2/pokemon/100')
